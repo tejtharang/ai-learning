@@ -5,6 +5,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev:llm": "ts-node-dev src/llm/llm.ts",
+    "dev:prompt": "ts-node-dev src/prompt/prompt.ts",
     "build": "tsc"
   },
   "devDependencies": {
