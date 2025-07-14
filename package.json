@@ -6,6 +6,7 @@
   "scripts": {
     "dev:llm": "ts-node-dev src/llm/llm.ts",
     "dev:prompt": "ts-node-dev src/prompt/prompt.ts",
+    "dev:rag": "ts-node-dev src/rag/rag.ts",
     "build": "tsc"
   },
   "devDependencies": {
@@ -17,7 +18,9 @@
     "typescript": "~5.7.2"
   },
   "dependencies": {
+    "@lancedb/lancedb": "^0.21.1",
     "cors": "^2.8.5",
+    "cosine-similarity": "^1.0.1",
     "express": "^5.1.0",
     "ollama": "^0.5.16"
   }
